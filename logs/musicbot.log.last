@@ -1,0 +1,45 @@
+[255.996227264] 2018-12-01 22:20:31,057 - INFO - launcher: Starting sanity checks
+[256.996631622] 2018-12-01 22:20:31,058 - INFO - launcher: Checking for Python 3.5+
+[258.996963501] 2018-12-01 22:20:31,060 - INFO - launcher: Checking console encoding
+[259.998083115] 2018-12-01 22:20:31,061 - INFO - launcher: Setting console encoding to UTF-8
+[259.998083115] 2018-12-01 22:20:31,061 - INFO - launcher: Ensuring we're in the right environment
+[261.995792389] 2018-12-01 22:20:31,063 - INFO - launcher: Adding local bins/ folder to path
+[3606.946706772] 2018-12-01 22:20:34,408 - INFO - launcher: Required checks passed.
+[3607.948303223] 2018-12-01 22:20:34,409 - INFO - launcher: Optional checks passed.
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[10.1968502998352051] 2018-12-01 22:20:40,998 - WARNING - musicbot.config | In config.py::MainThread(10320), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[10.1968502998352051] 2018-12-01 22:20:40,998 - INFO - musicbot.config | In config.py::MainThread(10320), line 124 in run_checks: Using i18n: config/i18n/en.json
+[10.2018511295318604] 2018-12-01 22:20:41,003 - DEBUG - musicbot.json | In json.py::MainThread(10320), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[10.2329268455505371] 2018-12-01 22:20:41,034 - DEBUG - musicbot.bot | In bot.py::MainThread(10320), line 223 in _setup_logging: Set logging level to INFO
+[10.2329268455505371] 2018-12-01 22:20:41,034 - INFO - musicbot.bot | In bot.py::MainThread(10320), line 83 in __init__: Starting MusicBot 1.9.8_1
+[10.2338509559631348] 2018-12-01 22:20:41,035 - INFO - musicbot.bot | In bot.py::MainThread(10320), line 89 in __init__: Loaded autoplaylist with 3055 entries
+[13.1153907775878906] 2018-12-01 22:20:43,917 - DEBUG - musicbot.bot | In bot.py::MainThread(10320), line 913 in on_ready: Connection established, ready to go.
+[13.1153907775878906] 2018-12-01 22:20:43,917 - DEBUG - musicbot.bot | In bot.py::MainThread(10320), line 334 in _cache_app_info: Caching app info
+[13.2613871097564697] 2018-12-01 22:20:44,063 - DEBUG - musicbot.bot | In bot.py::MainThread(10320), line 735 in _scheck_ensure_env: Ensuring data folders exist
+[13.2693881988525391] 2018-12-01 22:20:44,071 - DEBUG - musicbot.bot | In bot.py::MainThread(10320), line 751 in _scheck_server_permissions: Checking server permissions
+[13.2693881988525391] 2018-12-01 22:20:44,071 - DEBUG - musicbot.bot | In bot.py::MainThread(10320), line 755 in _scheck_autoplaylist: Auditing autoplaylist
+[13.2693881988525391] 2018-12-01 22:20:44,071 - DEBUG - musicbot.bot | In bot.py::MainThread(10320), line 759 in _scheck_configs: Validating config
+[13.2693881988525391] 2018-12-01 22:20:44,071 - DEBUG - musicbot.config | In config.py::MainThread(10320), line 213 in async_validate: Validating options...
+[13.2704203128814697] 2018-12-01 22:20:44,072 - DEBUG - musicbot.config | In config.py::MainThread(10320), line 227 in async_validate: Acquired owner id via API
+[13.2704203128814697] 2018-12-01 22:20:44,072 - DEBUG - musicbot.bot | In bot.py::MainThread(10320), line 762 in _scheck_configs: Validating permissions config
+[13.2704203128814697] 2018-12-01 22:20:44,072 - DEBUG - musicbot.permissions | In permissions.py::MainThread(10320), line 65 in async_validate: Validating permissions...
+[13.2704203128814697] 2018-12-01 22:20:44,072 - DEBUG - musicbot.permissions | In permissions.py::MainThread(10320), line 69 in async_validate: Fixing automatic owner group
+[13.2704203128814697] 2018-12-01 22:20:44,072 - INFO - musicbot.bot | In bot.py::MainThread(10320), line 930 in on_ready: Connected: 516039344201400340/Marty's Tentacle#3653
+[13.2714111804962158] 2018-12-01 22:20:44,073 - INFO - musicbot.bot | In bot.py::MainThread(10320), line 938 in on_ready: Owner:     274689466818363393/Marty#6654
+
+[13.2723867893218994] 2018-12-01 22:20:44,074 - INFO - musicbot.bot | In bot.py::MainThread(10320), line 941 in on_ready: Guild List:
+[13.2723867893218994] 2018-12-01 22:20:44,074 - INFO - musicbot.bot | In bot.py::MainThread(10320), line 944 in on_ready:  - marty's development dungeon
+[13.2733867168426514] 2018-12-01 22:20:44,075 - INFO - musicbot.bot | In bot.py::MainThread(10320), line 944 in on_ready:  - Correlation Gaming
+[13.2743883132934570] 2018-12-01 22:20:44,076 - INFO - musicbot.bot | In bot.py::MainThread(10320), line 990 in on_ready: Not bound to any text channels
+[13.2743883132934570] 2018-12-01 22:20:44,076 - INFO - musicbot.bot | In bot.py::MainThread(10320), line 1016 in on_ready: Not autojoining any voice channels
+[20.3355228900909424] 2018-12-01 22:20:51,137 - ERROR - musicbot.bot | In bot.py::MainThread(10320), line 901 in on_error: Exception in on_voice_state_update
+Traceback (most recent call last):
+  File "C:\Users\albinas\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\client.py", line 227, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\albinas\Downloads\rhinobot_heroku-master\rhinobot_heroku-master\musicbot\bot.py", line 2796, in on_voice_state_update
+    player = await self.get_player(channel)
+  File "C:\Users\albinas\Downloads\rhinobot_heroku-master\rhinobot_heroku-master\musicbot\bot.py", line 425, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
